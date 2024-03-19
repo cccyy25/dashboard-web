@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState} from "react";
 import { Table, Select, Space, Button, Modal, Drawer } from "antd";
-import { MenuUnfoldOutlined, RadiusBottomleftOutlined } from '@ant-design/icons'
+import { MenuUnfoldOutlined } from '@ant-design/icons'
 import axios from 'axios';
 import { Chart } from 'chart.js/auto';
 import BarChart from "../Component/barChart";
